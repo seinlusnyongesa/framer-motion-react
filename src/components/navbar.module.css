@@ -18,7 +18,7 @@
   content: "";
   position: absolute;
   left: -0.8em;
-  top: 1.2em;
+  top: 1.9em;
   width: 15px;
   height: 15px;
   background-color: var(--primary-color);
@@ -53,35 +53,4 @@ span {
 
 .navLinks {
   color: #d4c8c8;
-}
-
-h1,
-h2,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 90px;
-}
-h2 {
-  font-size: 64;
-}
-h3 {
-  font-size: 45;
-}
-h4 {
-  font-size: 32;
-}
-h5 {
-  font-size: 23;
-}
-h6 {
-  font-size: 16;
-}
-
-p {
-  font-size: 16;
 }

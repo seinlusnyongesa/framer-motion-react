@@ -25,7 +25,38 @@ a {
   list-style: none;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 90px;
+}
+h2 {
+  font-size: 64px;
+}
+h3 {
+  font-size: 45px;
+}
+h4 {
+  font-size: 32px;
+}
+h5 {
+  font-size: 23px;
+}
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
 }

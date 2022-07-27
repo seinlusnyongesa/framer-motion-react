@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 128px 256px;
+  /* background: blueviolet; */
+}
+
+.content h1 {
+  /* background-color: rgb(169, 51, 51); */
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: var(--black);
+}
+
+.container h4 {
+  color: var(--black-75);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 30px;
+  font-weight: 300;
+  /* background-color: rgb(181, 181, 54); */
+}
+
+.container p {
+  color: var(--black-75);
+}
+
+.content p > span {
+  font-weight: bolder;
+}
+
+.content button {
+  margin-top: 32px;
+  border: none;
+}
+
+.content button * {
+  font-size: 24px;
+  color: var(--primary-color);
+}

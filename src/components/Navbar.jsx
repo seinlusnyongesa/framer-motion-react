@@ -78,7 +78,7 @@ const Navbar = () => {
           animate={{ x: 0 }}
           transition={{ delay: 1.8, ease: "easeInOut" }}
         >
-          <h2 className={style.brand}>seinlus</h2>
+          <h5 className={style.brand}>seinlus</h5>
         </motion.div>
 
         <motion.button
