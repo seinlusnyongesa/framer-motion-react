@@ -12,7 +12,6 @@ body {
   margin: 0;
   background-color: #f8f8f2;
   background: radial-gradient(circle, #eff0f4, #e7e9f8);
-  overflow: hidden;
 }
 
 * {

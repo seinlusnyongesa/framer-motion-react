@@ -1,6 +1,7 @@
 .nav {
   background-color: #f5f0f0;
   width: 100%;
+  position: fixed;
 }
 .outer {
   display: flex;

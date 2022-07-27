@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+
+  height: 100%;
+
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 128px 256px;
+  /* background: blueviolet; */
+}
+.title {
+  margin: 0;
+}
+
+.tools {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+}
