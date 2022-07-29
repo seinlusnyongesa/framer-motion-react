@@ -15,7 +15,7 @@ const Skill = () => {
   return (
     <div className={style.container}>
       <div className={style.content}>
-        <h3 className={style.title}>Skills</h3>
+        <h3 className={style.title}>Uses</h3>
         <ul className={style.tools}>
           <li className={style.tool_container}>
             <img

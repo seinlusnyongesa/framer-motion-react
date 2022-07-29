@@ -2,6 +2,7 @@
   background-color: #f5f0f0;
   width: 100%;
   position: fixed;
+  z-index: 100;
 }
 .outer {
   display: flex;
@@ -52,6 +53,6 @@ span {
   align-items: center;
 }
 
-.navLinks {
+.navLinks a {
   color: #d4c8c8;
 }

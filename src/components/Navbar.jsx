@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import style from "./navbar.module.css";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const navVariant = {
   hidden: { y: "-100vh" },
@@ -123,7 +124,7 @@ const Navbar = () => {
                 animate="visible"
                 d="M 0 0 T 20 20"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <motion.path
                 variants={svgPathVariant}
@@ -131,7 +132,7 @@ const Navbar = () => {
                 animate="visible"
                 d="M 20 0 T 0 20"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
             </svg>
           )}
@@ -149,31 +150,27 @@ const Navbar = () => {
             <ul className={style.navLinks}>
               <motion.li
                 onClick={() => setIsOpen(!isOpen)}
-                whileHover={{ scale: 1.5, color: "var(--primary-color)" }}
+                whileHover={{
+                  scale: 1.5,
+                }}
                 transition={{ type: "spring", stiffness: 250 }}
               >
-                <h2>link1</h2>
+                <Link to="/">
+                  <motion.h2 whileHover={{ color: "var(--primary-color)" }}>
+                    home
+                  </motion.h2>
+                </Link>
               </motion.li>
               <motion.li
                 onClick={() => setIsOpen(!isOpen)}
                 whileHover={{ scale: 1.5, color: "var(--primary-color)" }}
                 transition={{ type: "spring", stiffness: 250 }}
               >
-                <h2>link1</h2>
-              </motion.li>
-              <motion.li
-                onClick={() => setIsOpen(!isOpen)}
-                whileHover={{ scale: 1.5, color: "var(--primary-color)" }}
-                transition={{ type: "spring", stiffness: 250 }}
-              >
-                <h2>link1</h2>
-              </motion.li>
-              <motion.li
-                onClick={() => setIsOpen(!isOpen)}
-                whileHover={{ scale: 1.5, color: "var(--primary-color)" }}
-                transition={{ type: "spring", stiffness: 250 }}
-              >
-                <h2>link1</h2>
+                <Link to="/about">
+                  <motion.h2 whileHover={{ color: "var(--primary-color)" }}>
+                    about
+                  </motion.h2>
+                </Link>
               </motion.li>
             </ul>
           </motion.div>
