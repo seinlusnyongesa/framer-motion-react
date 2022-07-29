@@ -9,7 +9,7 @@ const contentVariant = {
     opacity: 1,
     transition: {
       delay: 1,
-      duration: 4,
+      duration: 5,
       when: "beforeChildren",
     },
   },
