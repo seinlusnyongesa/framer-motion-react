@@ -6,7 +6,7 @@ const Hero = () => {
     <div className={style.container}>
       <div className={style.content}>
         <h4>Hello, I'm seinlus nyongesa.</h4>
-        <h1>a self proclaimed software engineer.</h1>
+        <h1>a software engineer.</h1>
         <p>
           <span>have a project in mind ? don't be affraid to reach out.</span>{" "}
           you can also say hi.

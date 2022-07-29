@@ -1,7 +1,7 @@
 import React from "react";
+import style from "./footer.module.css";
 
-import style from "./skill.module.css";
-const Skill = () => {
+const Footer = () => {
   return (
     <div className={style.container}>
       <div className={style.content}>
@@ -28,4 +28,4 @@ const Skill = () => {
   );
 };
 
-export default Skill;
+export default Footer;
