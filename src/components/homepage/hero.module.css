@@ -41,6 +41,7 @@
   background-color: transparent;
   margin-top: 32px;
   border: none;
+  cursor: pointer;
 }
 
 .content button * {
