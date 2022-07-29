@@ -38,6 +38,7 @@
 }
 
 .content button {
+  background-color: transparent;
   margin-top: 32px;
   border: none;
 }
