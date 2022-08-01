@@ -2,7 +2,7 @@ import React from "react";
 import style from "./hero.module.css";
 import { FaChevronDown } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const contentVariant = {
   hidden: { opacity: 0 },
@@ -44,7 +44,7 @@ const Hero = () => {
         </p>
 
         <motion.button variants={buttonVariant}>
-          <Link to="footer">
+          <Link to="footer" smooth={true} duration={1000}>
             <FaChevronDown />{" "}
           </Link>
         </motion.button>
